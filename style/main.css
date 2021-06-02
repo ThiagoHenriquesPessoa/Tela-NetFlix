@@ -58,21 +58,18 @@ header nav a:hover{
     align-items: flex-start;
     border: 1px solid red;
 }
+.filme-principal .container{
+    margin-left: 50px;    
+}
 
 .filme-principal .titulo{
-    width: 300px;
-    margin: 20px 700px 0px 35px;
+    width: 300px;    
 }
 
 .filme-principal .descricao{
-    margin: 10px 700px 0px 35px;    
-    width: 50%;
-    height: 50%;
-    
-}
-
-.filme-principal .botoes{    
-    margin: 0px 0px 0px 35px;
+    margin: 20px 0px ; 
+    width: 500px;
+    height: 95px;
     
 }
 

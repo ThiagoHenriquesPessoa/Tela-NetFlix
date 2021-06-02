@@ -25,10 +25,12 @@ header .container{
 header .Logo{
     width: 10%;
     margin: 20px 50px 20px 50px;
+    cursor: pointer;
 }
 header .inicio{
     font-size: 20px;
     margin-right: 15px;
+    cursor: pointer;
 }
 
 header nav a{
@@ -69,8 +71,37 @@ header nav a:hover{
     
 }
 
-.filme-principal .botoes{
-    margin: 15px 0px 0px 35px;
+.filme-principal .botoes{    
+    margin: 0px 0px 0px 35px;
+    
+}
+
+.filme-principal .botoes .botao{   
+    margin: 0px 5px 1px 1px;
+    border: none;    
+    padding: 10px 20px 10px 10px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.filme-principal .botoes .botao i{
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.filme-principal .botoes .botao:nth-child(1){
+    background-color: rgba(249,249,249,.80);
+    color: black;
+}
+.filme-principal .botoes .botao:nth-child(2){
+    color: white;
+    background-color: rgba(100,100,100,.80);
+}
+
+.filme-principal .botoes .botao:hover{
+    background-color: white;
+    background: rgba(160,160,160,.50)
 }
 
 
